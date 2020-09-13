@@ -1,2 +1,2 @@
-# github.io
+# terratown.github.io
 website for terra.town
