@@ -7,6 +7,20 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Election Maps</title>
+				
+					<dc:creator>Ane Rahbek Vierø</dc:creator>
+				
+				
+					<description>&lt;p&gt;Map by: Martín González&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 06 Nov 2020 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/dataviz/election-maps.html</link>
+				<guid isPermaLink="true">http://localhost:4000/dataviz/election-maps.html</guid>
+			</item>
+		
+			<item>
 				<title>Data Feminism</title>
 				
 					<dc:creator>Sara Daugbjerg &amp; Ane Vierø</dc:creator>
