@@ -1,6 +1,6 @@
 ---
 layout: misc
-title: Club
+title: Coding Club
 ---
 
 

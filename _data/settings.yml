@@ -8,8 +8,8 @@ google-ID: 'UA-112060364-2'
 
 menu:
 - {name: 'Stories', folder: 'pages', file: 'stories.html'}
-- {name: 'Reviews', folder: 'pages', file: 'reviews.html'}
-- {name: 'Club', folder: 'pages', file: 'club.html'}
+- {name: 'Reviews & Selections', folder: 'pages', file: 'reviews.html'}
+- {name: 'Coding Club', folder: 'pages', file: 'club.html'}
 - {name: 'About', folder: 'pages', file: 'about.html'}
 
 
