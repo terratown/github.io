@@ -2,8 +2,8 @@
 layout: post
 title: "Election Maps"
 author: "Ane Rahbek Vierø"
-categories: dataviz
-tags: [maps, dataviz, election]
+categories: stories
+tags: [maps, stories, election]
 image: electionmap.jpg
 ---
 
