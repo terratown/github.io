@@ -16,7 +16,7 @@ sass:
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "terra.town"
 description:	       "A modified jekyll theme for the blog terra.town"
-author:              "Paul Le modified by Sara Daugbjerg"
+author:              "Paul Le modified by Sara Daugbjerg & Ane Vierø"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

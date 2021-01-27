@@ -35,51 +35,5 @@ Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide
 				<guid isPermaLink="true">http://localhost:4000/reviews/data-feminism-review.html</guid>
 			</item>
 		
-			<item>
-				<title>Ud i naturen</title>
-				
-					<dc:creator>Sara Daugbjerg</dc:creator>
-				
-				
-					<description>&lt;p&gt;REVIEWS
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 22 Oct 2020 00:00:00 +0200</pubDate>
-				<link>http://localhost:4000/reviews/ud-i-naturen-review.html</link>
-				<guid isPermaLink="true">http://localhost:4000/reviews/ud-i-naturen-review.html</guid>
-			</item>
-		
-			<item>
-				<title>Getting Started</title>
-				
-					<dc:creator>Paul Le</dc:creator>
-				
-				
-					<description>&lt;h1 id=&quot;millennial&quot;&gt;Millennial&lt;/h1&gt;
-
-</description>
-				
-				<pubDate>Mon, 10 Oct 2016 00:00:00 +0200</pubDate>
-				<link>http://localhost:4000/stories/getting-started.html</link>
-				<guid isPermaLink="true">http://localhost:4000/stories/getting-started.html</guid>
-			</item>
-		
-			<item>
-				<title>Text Formatting</title>
-				
-					<dc:creator>Paul Le</dc:creator>
-				
-				
-					<description>&lt;h1 id=&quot;markdown-support&quot;&gt;Markdown Support&lt;/h1&gt;
-
-</description>
-				
-				<pubDate>Fri, 09 Sep 2016 00:00:00 +0200</pubDate>
-				<link>http://localhost:4000/stories/text-formatting.html</link>
-				<guid isPermaLink="true">http://localhost:4000/stories/text-formatting.html</guid>
-			</item>
-		
 	</channel>
 </rss>
