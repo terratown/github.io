@@ -20,7 +20,7 @@ While one should be careful labelling any map as 'wrong' or 'correct' (after all
 
 Similarly, using a very large geographical unit reinforces ideas about homogeneous regions where most, if not all, inhabitants vote and think similarly. This is for example the case in many of the maps used to map the results of the national elections in Denmark:
 
-![Map of election results in Denmark, visualised for each municipality](/assets/img/folketingsvalg1.jpg)
+<img src="/assets/img/folketingsvalg1.jpg" alt="Map of election results in Denmark, visualised for each municipality" width="140%">.
 <em>Map of election results in Denmark, visualised for each municipality. Source: [dr.dk](https://www.dr.dk/nyheder/politik/valg2015/se-kortet-danmark-delt-i-tre)</em>
 <br>
 <br>
@@ -55,4 +55,3 @@ The conclusion - maps are difficult to get right! And election maps might be a l
 ![Election map based on building footprint and population density](/assets/img/electionmap.jpg)
 <em>Election map by [Martín González](https://martingonzalez.net/) visualizing voting distribution based on both building footprint and population density (2020 election).</em>
 
-<img src="/assets/img/field_dots.png" width="40%">.
