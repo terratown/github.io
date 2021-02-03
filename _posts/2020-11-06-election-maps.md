@@ -22,8 +22,8 @@ Similarly, using a very large geographical unit reinforces ideas about homogeneo
 
 ![Map of election results in Denmark, visualised for each municipality](/assets/img/folketingsvalg1.jpg)
 <em>Map of election results in Denmark, visualised for each municipality. Source: [dr.dk](https://www.dr.dk/nyheder/politik/valg2015/se-kortet-danmark-delt-i-tre)</em>
-  
-
+<br>
+<br>
 In contrast, the map below shows the same data and same election results, but does not to the same extent reinforce the idea of clear-cut urban-rural divides in political affiliation.
 
 ![Map of election results in Denmark, visualised for each constituency](/assets/img/folketingsvalg2.png)
@@ -37,8 +37,8 @@ One way of getting around this is to use shades based on population density, but
 
 ![Map of US election results in 2016, using shades to visualize population density](/assets/img/ny_2016.png)
 <em>Map of US election results in 2016, using shades to visualize population density. Source: [New York Times](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html?mtrref=undefined&assetType=REGIWALL#3.98/39.52/-97.87)</em>  
-
-
+<br>
+<br>
 To overcome this challenge, some turn to so-called cartograms like the one below (in cartograms the size of each unit is sized in proportion with the data visualized on the map).
 
 ![A cartogram of the US election results](/assets/img/cartogram.png)
@@ -55,3 +55,4 @@ The conclusion - maps are difficult to get right! And election maps might be a l
 ![Election map based on building footprint and population density](/assets/img/electionmap.jpg)
 <em>Election map by [Martín González](https://martingonzalez.net/) visualizing voting distribution based on both building footprint and population density (2020 election).</em>
 
+<img src="/assets/img/field_dots.png" width="40%">.
