@@ -22,12 +22,13 @@ Similarly, using a very large geographical unit reinforces ideas about homogeneo
 
 ![Map of election results in Denmark, visualised for each municipality](/assets/img/folketingsvalg1.jpg)
 <em>Map of election results in Denmark, visualised for each municipality. Source: [dr.dk](https://www.dr.dk/nyheder/politik/valg2015/se-kortet-danmark-delt-i-tre)</em>
+  
 
 In contrast, the map below shows the same data and same election results, but does not to the same extent reinforce the idea of clear-cut urban-rural divides in political affiliation.
 
 ![Map of election results in Denmark, visualised for each constituency](/assets/img/folketingsvalg2.png)
-<em>Map of election results in Denmark, visualised for each constituency. Source: [dr.dk](https://www.dr.dk/nyheder/politik/valg2015/stemmeknuseren-se-hvordan-kredsene-med-flest-rige-singler-og-ledige-stemte)</em>
-
+<em>Map of election results in Denmark, visualised for each constituency. Source: [dr.dk](https://www.dr.dk/nyheder/politik/valg2015/stemmeknuseren-se-hvordan-kredsene-med-flest-rige-singler-og-ledige-stemte)</em>  
+  
 As described quite elegantly in this [NY-article](https://www.nytimes.com/interactive/2020/10/30/opinion/election-results-maps.html), there are a number of issues with the traditional way we make maps.
 
 For example, showing election results for geographical areas might give some fairly misleading ideas about who got the most votes, since the population density usually varies quite a bit.
@@ -35,7 +36,7 @@ For example, showing election results for geographical areas might give some fai
 One way of getting around this is to use shades based on population density, but it is hard to communicate exactly how to interpret the relationship between color hue and number of votes. Moreover, most people can only distinguish between 5-7 shades of the same color.
 
 ![Map of US election results in 2016, using shades to visualize population density](/assets/img/ny_2016.png)
-<em>Map of US election results in 2016, using shades to visualize population density. Source: [New York Times](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html?mtrref=undefined&assetType=REGIWALL#3.98/39.52/-97.87)</em>
+<em>Map of US election results in 2016, using shades to visualize population density. Source: [New York Times](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html?mtrref=undefined&assetType=REGIWALL#3.98/39.52/-97.87)</em>  
 
 
 To overcome this challenge, some turn to so-called cartograms like the one below (in cartograms the size of each unit is sized in proportion with the data visualized on the map).
