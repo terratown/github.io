@@ -55,3 +55,4 @@ The conclusion - maps are difficult to get right! And election maps might be a l
 ![Election map based on building footprint and population density](/assets/img/electionmap.jpg)
 <em>Election map by [Martín González](https://martingonzalez.net/) visualizing voting distribution based on both building footprint and population density (2020 election).</em>
 
+P.S. Election maps, or rather, election results and how people vote in different places, can often tell us a lot about a country's history and demography. For an interesting example of this, check out this [twitter thread](https://twitter.com/latifnasser/status/1323334035066642432) by Latif Nasser.
