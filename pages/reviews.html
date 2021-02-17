@@ -2,6 +2,9 @@
 layout: page
 title: Reviews & Selections
 ---
+&ensp; In this section you will find reviews and selections of books, articles, and projects we find interesting. 
+<br>
+<br>
 {% for post in site.categories.reviews %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
