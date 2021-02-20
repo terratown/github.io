@@ -140,7 +140,7 @@ th, td {
     width: 95vw; } }
 .featured-posts {
   height: 400px;
-  margin: 5px 10px 10px;
+  margin: 5px 10px 50px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
