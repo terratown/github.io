@@ -1,2 +1,147 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-27T21:29:50+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">terra.town</title><subtitle>A modified jekyll theme for the blog terra.town</subtitle><author><name>Paul Le modified by Sara Daugbjerg &amp; Ane Vierø</name></author><entry><title type="html">Election Maps</title><link href="http://localhost:4000/stories/election-maps.html" rel="alternate" type="text/html" title="Election Maps" /><published>2020-11-06T00:00:00+01:00</published><updated>2020-11-06T00:00:00+01:00</updated><id>http://localhost:4000/stories/election-maps</id><content type="html" xml:base="http://localhost:4000/stories/election-maps.html">&lt;p&gt;Map by: Martín González&lt;/p&gt;</content><author><name>Ane Rahbek Vierø</name></author><category term="maps" /><category term="stories" /><category term="election" /><summary type="html">Map by: Martín González</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/electionmap.jpg" /></entry><entry><title type="html">Data Feminism</title><link href="http://localhost:4000/reviews/data-feminism-review.html" rel="alternate" type="text/html" title="Data Feminism" /><published>2020-10-30T00:00:00+01:00</published><updated>2020-10-30T00:00:00+01:00</updated><id>http://localhost:4000/reviews/data-feminism-review</id><content type="html" xml:base="http://localhost:4000/reviews/data-feminism-review.html">&lt;p&gt;REVIEWS
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;</content><author><name>Sara Daugbjerg &amp; Ane Vierø</name></author><category term="documentation" /><category term="sample" /><summary type="html">REVIEWS Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/data-feminism.jpg" /></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-20T21:08:53+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">terra.town</title><subtitle>A modified jekyll theme for the blog terra.town</subtitle><author><name>Paul Le modified by Sara Daugbjerg &amp; Ane Vierø</name></author><entry><title type="html">Data Feminism</title><link href="http://localhost:4000/reviews/data-feminism-review.html" rel="alternate" type="text/html" title="Data Feminism" /><published>2021-02-20T00:00:00+01:00</published><updated>2021-02-20T00:00:00+01:00</updated><id>http://localhost:4000/reviews/data-feminism-review</id><content type="html" xml:base="http://localhost:4000/reviews/data-feminism-review.html">&lt;h1 id=&quot;data-feminism&quot;&gt;Data Feminism&lt;/h1&gt;
+&lt;h2 id=&quot;a-memo-based-on-the-principles-and-ideas-of-data-feminism&quot;&gt;A memo based on the principles and ideas of Data Feminism&lt;/h2&gt;
+
+&lt;p&gt;As an aspiring data scientist wanting to explore the world of data to understand the world around me, I needed to make sure I educated myself on issues of injustice and bias first of all.&lt;/p&gt;
+
+&lt;p&gt;The recently published book Data Feminism (2020) by Catherine D’ignazio, Assistant Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT, and Lauren F. Klein, Associate Professor of English and Quantitative Theory and Methods at Emory University,  that analyses these questions from a feministic perspective seemed to be a good reading on this matter and a good starting point for me to learn about data and the relying issues of unbalanced power structures.&lt;/p&gt;
+
+&lt;p&gt;In the book they don’t only go through the practices in data science that reinforce inequality and opression but also present solutions on how to approach it from a feminist stand point, seeking to create more just, equitable and livable futures. It’s important to mention that the understanding of feminism here is intersectional, meaning it’s not only about gender but also about race, class and ability.&lt;/p&gt;
+
+&lt;p&gt;I wanted my readings to end up as a memo of what to have in mind and what to be aware of and something that I can have by my side and return too when working on projects informed by data. I might change, challenge, and add to this memo along the years as I get more experience and knowledge on these issues. So… see this as an ongoing project.&lt;/p&gt;
+
+&lt;p&gt;This is a review in two parts. The first goes through the first 4 chapters. The second will go through the last 3 chapters.&lt;/p&gt;
+
+&lt;p&gt;In the first half of the book the authors seek to give an understanding of how to examine power structures in the field of data science and how it reveals in the various algorithms, visualizations and understandings informed by data. They also suggest strategies to overcome these issues and challenge them. Furthermore they argue for a more emotioned and embodied approach to data science and data visualization in contrast to the idea of neutrality and minimalisme. Lastly they discuss the challenges inherent to classification and how to deal with them.&lt;/p&gt;
+
+&lt;h2 id=&quot;examine-power&quot;&gt;Examine power&lt;/h2&gt;
+
+&lt;p&gt;Questions to ask when examining power:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Who is doing the work on data science? And who is not?&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Who benefits and who is overlooked?&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Whose goals are prioritized? And who’s not?&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Is the data representative? If not what is missing and why?&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Where is the data coming from and how did it become data?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/STEM3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:0.6em;&quot;&gt;Source: &lt;a href=&quot;https://www.dst.dk/da/Statistik/bagtal/2020/2020-09-23-flere-kvinder-studerer-it-teknik-og-robotter&quot;&gt;Danmarks Statistik&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;There is still a big gap between men and women being educated in STEM. As the figure shows, In Denmark, in 2019, only 24% of the admitted students in ICT studies  (Information and Communications Technologies) were women.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;challenge-power&quot;&gt;Challenge power&lt;/h2&gt;
+
+&lt;p&gt;To challenge the questions on power stated above, the authors purpose the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Collect:&lt;/strong&gt; Generate counter data&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Analyze:&lt;/strong&gt; Demonstrate inequitable outcomes across groups and develop new methods (fx. auditing algorithms)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Imagine:&lt;/strong&gt; Think in terms of equity, not equality.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Teach:&lt;/strong&gt; Ask yourself who are the data scientists of today and how to change it if unbalanced. Teach across gender, demographics, etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/bunge_runovermap.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;span style=&quot;font-size:0.6em;&quot;&gt;Source: &lt;a href=&quot;http://makingmaps.net/2009/06/06/making-advocacy-humanitarian-maps/&quot;&gt;Making Maps: DIY Cartography&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This map was mapped with the participation of the young black population of Detroit. It was a way to show a problem that hadn’t been investigated by the authorities and way to advocate for change.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;elevate-emotion-and-embodiment&quot;&gt;Elevate Emotion and Embodiment&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Data is never neutral, either are the visualizations of it.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;    Don’t do “the good trick of seeing everything from nowhere” (Donna Harraway). All knowledge is situated, it has a cultural, historical and geographical context.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Activate emotion and embodiment.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;    Work towards a more holistic ideal where emotion and embodiment are represented. Activating emotion can help people grasp and learn more from data-driven arguments.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/GUERRILLAGIRLS.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;span style=&quot;font-size:0.6em;&quot;&gt;Source: &lt;a href=&quot;https://www.nytimes.com/2015/08/09/arts/design/the-guerrilla-girls-after-3-decades-still-rattling-art-world-cages.html&quot;&gt;New York Times&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In this poster from 1989 Guerrilla Girls, a group of anonymous American female artists, are trying to make a point about who is exhibiting in the Met. Museum. The poster was rejected by the Public Art Fund in New York and the bus company they rented advertising space on, with not very clear reasons.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rethink-binaries&quot;&gt;Rethink Binaries&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Question classification systems.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;    Classification systems are needed and important when working with data and information. One needs to distinguish between personal and collective oppression.  But ask your classification: What social, cultural or political values they reflect?What hidden hierarchies they reflect and whether they should exist?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Make sure classifications don’t have bad consequences.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;    Have the Paradox of exposure in mind. Classification can reinforce discrimination.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Hack the data you are working with.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;    Use color coding to make your argument visible or show the absence of data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/congress-representation.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;span style=&quot;font-size:0.6em;&quot;&gt;Source: &lt;a href=&quot;https://www.theguardian.com/us-news/ng-interactive/2018/nov/15/new-congress-us-house-of-representatives-senate&quot;&gt;The Guardian&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;For the US election 2018, The Guardian made this interactive visualization where one could search for people in Congress that identified with certain parameters. Having the “Trans- non-binary” category, that by the way it’s not represented in the congress, they show that this group is not represented in the Congress.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The chapters/principles missing are&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Embrace Pluralism&lt;/li&gt;
+  &lt;li&gt;Consider Context&lt;/li&gt;
+  &lt;li&gt;Make Labor Visible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cover picture mural by &lt;a href=&quot;https://marciadiaz.myportfolio.com/data-feminism&quot;&gt;Marcia Diaz&lt;/a&gt; (2020) about this book.&lt;/p&gt;</content><author><name>Sara Daugbjerg</name></author><category term="documentation" /><category term="sample" /><summary type="html">Data Feminism A memo based on the principles and ideas of Data Feminism</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/data-feminism.jpg" /></entry><entry><title type="html">Election Maps</title><link href="http://localhost:4000/stories/election-maps.html" rel="alternate" type="text/html" title="Election Maps" /><published>2020-11-06T00:00:00+01:00</published><updated>2020-11-06T00:00:00+01:00</updated><id>http://localhost:4000/stories/election-maps</id><content type="html" xml:base="http://localhost:4000/stories/election-maps.html">&lt;p&gt;&lt;em&gt;Map by: &lt;a href=&quot;https://martingonzalez.net/&quot;&gt;Martín González&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;election-maps&quot;&gt;Election Maps&lt;/h1&gt;
+
+&lt;p&gt;A classic - and maybe one of the oldest? - type of data visualisation is the art of cartography.
+As with all other data visualisations, data visualised on, or as, maps, can be made to tell very different stories, depending on how you visualise it. For spatial data particularly the choice of geographical scale and unit is an important factor for what story is told.&lt;/p&gt;
+
+&lt;p&gt;This is never as clear, as when it comes to the election maps that are used to show how people voted where and which usually are abundant after larger elections.&lt;/p&gt;
+
+&lt;p&gt;While one should be careful labelling any map as ‘wrong’ or ‘correct’ (after all a map is always an abstraction and simplification (&lt;em&gt;see for example the old classic &lt;a href=&quot;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwjZ_Zyj0MbuAhVF26QKHW1xCeYQFjAIegQIKxAC&amp;amp;url=https%3A%2F%2Fpress.uchicago.edu%2Fucp%2Fbooks%2Fbook%2Fchicago%2FH%2Fbo27400568.html&amp;amp;usg=AOvVaw0gr-X-r9WZTpQvozbspNAw&quot;&gt;‘How to lie with maps’&lt;/a&gt;)&lt;/em&gt;, specific ways of mapping voting patterns can convey some quite problematic and misleading narratives. Examples are the maps showing voting results per state or geographical extent, resulting in an idea that Trump won a &lt;a href=&quot;https://www.telegraph.co.uk/news/2016/11/16/that-misleading-breitbart-map-explained-how-trumps-dominance-acr/&quot;&gt;‘landslide victory’&lt;/a&gt; in 2016 (hint: the population is not evenly distributed so largest geographical extent ≠ most votes).&lt;/p&gt;
+
+&lt;p&gt;Similarly, using a very large geographical unit reinforces ideas about homogeneous regions where most, if not all, inhabitants vote and think similarly. This is for example the case in many of the maps used to map the results of the national elections in Denmark:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/folketingsvalg3.png&quot; alt=&quot;Map of election results in Denmark, visualised for each municipality&quot; width=&quot;80%&quot; /&gt;
+&lt;em&gt;Map of election results in Denmark, visualised for each municipality. Source: &lt;a href=&quot;https://www.dr.dk/nyheder/politik/folketingsvalg/se-forskellen-danmarkskortet-viser-dfs-vaelgerlussing&quot;&gt;dr.dk&lt;/a&gt;&lt;/em&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+In contrast, the map below shows the same data and same election results, but does not to the same extent reinforce the idea of clear-cut urban-rural divides in political affiliation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/folketingsvalg2.png&quot; alt=&quot;Map of election results in Denmark, visualised for each constituency&quot; /&gt;
+&lt;em&gt;Map of election results in Denmark, visualised for each constituency. Source: &lt;a href=&quot;https://www.dr.dk/nyheder/politik/valg2015/stemmeknuseren-se-hvordan-kredsene-med-flest-rige-singler-og-ledige-stemte&quot;&gt;dr.dk&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As described quite elegantly in this &lt;a href=&quot;https://www.nytimes.com/interactive/2020/10/30/opinion/election-results-maps.html&quot;&gt;NY-article&lt;/a&gt;, there are a number of issues with the traditional way we make maps.&lt;/p&gt;
+
+&lt;p&gt;For example, showing election results for geographical areas might give some fairly misleading ideas about who got the most votes, since the population density usually varies quite a bit.&lt;/p&gt;
+
+&lt;p&gt;One way of getting around this is to use shades based on population density, but it is hard to communicate exactly how to interpret the relationship between color hue and number of votes. Moreover, most people can only distinguish between 5-7 shades of the same color.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/ny_2016.png&quot; alt=&quot;Map of US election results in 2016, using shades to visualize population density&quot; /&gt;
+&lt;em&gt;Map of US election results in 2016, using shades to visualize population density. Source: &lt;a href=&quot;https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html?mtrref=undefined&amp;amp;assetType=REGIWALL#3.98/39.52/-97.87&quot;&gt;New York Times&lt;/a&gt;&lt;/em&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;To overcome this challenge, some turn to so-called cartograms like the one below (in cartograms the size of each unit is sized in proportion with the data visualized on the map).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/cartogram.png&quot; alt=&quot;A cartogram of the US election results&quot; /&gt;
+&lt;em&gt;Source: &lt;a href=&quot;https://worldmapper.org/us-presidential-election-2020/&quot;&gt;Worldmapper.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;While fun to look at, most people want to be able to locate themselves, or at least their home town in a map, and that is tricky when the map no longer contains the well-known shapes of more common map projections.&lt;/p&gt;
+
+&lt;p&gt;The conclusion - maps are difficult to get right! And election maps might be a little bit harder, especially in times of contested results. Below are however a couple of maps which in different ways do a pretty good job at conveying how - and how many - people voted across the country.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/field_dots.png&quot; alt=&quot;A dasymetric dot density map by Kenneth Field&quot; /&gt;
+&lt;em&gt;A dasymetric dot density map by &lt;a href=&quot;https://carto.maps.arcgis.com/apps/webappviewer/index.html?id=8732c91ba7a14d818cd26b776250d2c3&quot;&gt;Kenneth Field&lt;/a&gt; (2016 election).&lt;/em&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;/assets/img/electionmap.jpg&quot; alt=&quot;Election map based on building footprint and population density&quot; /&gt;
+&lt;em&gt;Election map by &lt;a href=&quot;https://martingonzalez.net/&quot;&gt;Martín González&lt;/a&gt; visualizing voting distribution based on both building footprint and population density (2020 election).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;P.S. Election maps, or rather, election results and how people vote in different places, can often tell us a lot about a country’s history and demography. For an interesting example of this, check out this &lt;a href=&quot;https://twitter.com/latifnasser/status/1323334035066642432&quot;&gt;twitter thread&lt;/a&gt; by Latif Nasser.&lt;/p&gt;</content><author><name>Ane Rahbek Vierø</name></author><category term="maps" /><category term="stories" /><category term="election" /><summary type="html">Map by: Martín González</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/electionmap.jpg" /></entry></feed>

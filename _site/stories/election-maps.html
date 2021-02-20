@@ -142,7 +142,55 @@
   
 
   <article>
-    <p>Map by: Martín González</p>
+    <p><em>Map by: <a href="https://martingonzalez.net/">Martín González</a></em></p>
+
+<h1 id="election-maps">Election Maps</h1>
+
+<p>A classic - and maybe one of the oldest? - type of data visualisation is the art of cartography.
+As with all other data visualisations, data visualised on, or as, maps, can be made to tell very different stories, depending on how you visualise it. For spatial data particularly the choice of geographical scale and unit is an important factor for what story is told.</p>
+
+<p>This is never as clear, as when it comes to the election maps that are used to show how people voted where and which usually are abundant after larger elections.</p>
+
+<p>While one should be careful labelling any map as ‘wrong’ or ‘correct’ (after all a map is always an abstraction and simplification (<em>see for example the old classic <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjZ_Zyj0MbuAhVF26QKHW1xCeYQFjAIegQIKxAC&amp;url=https%3A%2F%2Fpress.uchicago.edu%2Fucp%2Fbooks%2Fbook%2Fchicago%2FH%2Fbo27400568.html&amp;usg=AOvVaw0gr-X-r9WZTpQvozbspNAw">‘How to lie with maps’</a>)</em>, specific ways of mapping voting patterns can convey some quite problematic and misleading narratives. Examples are the maps showing voting results per state or geographical extent, resulting in an idea that Trump won a <a href="https://www.telegraph.co.uk/news/2016/11/16/that-misleading-breitbart-map-explained-how-trumps-dominance-acr/">‘landslide victory’</a> in 2016 (hint: the population is not evenly distributed so largest geographical extent ≠ most votes).</p>
+
+<p>Similarly, using a very large geographical unit reinforces ideas about homogeneous regions where most, if not all, inhabitants vote and think similarly. This is for example the case in many of the maps used to map the results of the national elections in Denmark:</p>
+
+<p><img src="/assets/img/folketingsvalg3.png" alt="Map of election results in Denmark, visualised for each municipality" width="80%" />
+<em>Map of election results in Denmark, visualised for each municipality. Source: <a href="https://www.dr.dk/nyheder/politik/folketingsvalg/se-forskellen-danmarkskortet-viser-dfs-vaelgerlussing">dr.dk</a></em>
+<br />
+<br />
+In contrast, the map below shows the same data and same election results, but does not to the same extent reinforce the idea of clear-cut urban-rural divides in political affiliation.</p>
+
+<p><img src="/assets/img/folketingsvalg2.png" alt="Map of election results in Denmark, visualised for each constituency" />
+<em>Map of election results in Denmark, visualised for each constituency. Source: <a href="https://www.dr.dk/nyheder/politik/valg2015/stemmeknuseren-se-hvordan-kredsene-med-flest-rige-singler-og-ledige-stemte">dr.dk</a></em></p>
+
+<p>As described quite elegantly in this <a href="https://www.nytimes.com/interactive/2020/10/30/opinion/election-results-maps.html">NY-article</a>, there are a number of issues with the traditional way we make maps.</p>
+
+<p>For example, showing election results for geographical areas might give some fairly misleading ideas about who got the most votes, since the population density usually varies quite a bit.</p>
+
+<p>One way of getting around this is to use shades based on population density, but it is hard to communicate exactly how to interpret the relationship between color hue and number of votes. Moreover, most people can only distinguish between 5-7 shades of the same color.</p>
+
+<p><img src="/assets/img/ny_2016.png" alt="Map of US election results in 2016, using shades to visualize population density" />
+<em>Map of US election results in 2016, using shades to visualize population density. Source: <a href="https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html?mtrref=undefined&amp;assetType=REGIWALL#3.98/39.52/-97.87">New York Times</a></em><br />
+<br /></p>
+
+<p>To overcome this challenge, some turn to so-called cartograms like the one below (in cartograms the size of each unit is sized in proportion with the data visualized on the map).</p>
+
+<p><img src="/assets/img/cartogram.png" alt="A cartogram of the US election results" />
+<em>Source: <a href="https://worldmapper.org/us-presidential-election-2020/">Worldmapper.org</a></em></p>
+
+<p>While fun to look at, most people want to be able to locate themselves, or at least their home town in a map, and that is tricky when the map no longer contains the well-known shapes of more common map projections.</p>
+
+<p>The conclusion - maps are difficult to get right! And election maps might be a little bit harder, especially in times of contested results. Below are however a couple of maps which in different ways do a pretty good job at conveying how - and how many - people voted across the country.</p>
+
+<p><img src="/assets/img/field_dots.png" alt="A dasymetric dot density map by Kenneth Field" />
+<em>A dasymetric dot density map by <a href="https://carto.maps.arcgis.com/apps/webappviewer/index.html?id=8732c91ba7a14d818cd26b776250d2c3">Kenneth Field</a> (2016 election).</em><br />
+<br />
+<br />
+<img src="/assets/img/electionmap.jpg" alt="Election map based on building footprint and population density" />
+<em>Election map by <a href="https://martingonzalez.net/">Martín González</a> visualizing voting distribution based on both building footprint and population density (2020 election).</em></p>
+
+<p>P.S. Election maps, or rather, election results and how people vote in different places, can often tell us a lot about a country’s history and demography. For an interesting example of this, check out this <a href="https://twitter.com/latifnasser/status/1323334035066642432">twitter thread</a> by Latif Nasser.</p>
 
   </article>
 
