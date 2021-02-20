@@ -93,7 +93,7 @@ To challenge the questions on power stated above, the authors purpose the follow
 * Make Labor Visible 
 
 
-Cover picture mural by [Marcia Diaz](https://marciadiaz.myportfolio.com/data-feminism) (2020) about this book.
+Cover picture: Mural by [Marcia Diaz](https://marciadiaz.myportfolio.com/data-feminism) (2020) about this book.
 
 
 
