@@ -23,7 +23,7 @@ February/March 2021
 
 Data Scraping for journalists and researchers (in Danish)
 
-[https://www.kaasogmulvad.dk/2020/04/nyt-kursus-i-scraping/](https://www.kaasogmulvad.dk/2020/04/nyt-kursus-i-scraping/)
+https://www.kaasogmulvad.dk/courses/python/
 
 Status meetings: 10th February & 10th March, 7PM - 8PM on Jitsi Meet
 
