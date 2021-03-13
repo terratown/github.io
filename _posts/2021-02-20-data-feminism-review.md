@@ -6,11 +6,11 @@ categories: reviews
 tags: [documentation,sample]
 image: data-feminism.jpg
 ---
-
+*Mural by [Marcia Diaz](https://marciadiaz.myportfolio.com/data-feminism) (2020) about this book.*
 # Data Feminism
 ## A memo based on the principles and ideas of Data Feminism 
 
-As an aspiring data scientist wanting to explore the world of data to understand the world around me, I needed to make sure I educated myself on issues of injustice and bias first of all.
+As an aspiring data scientist wanting to explore the world of data to understand the world around me, I felt I needed to make sure I educated myself on issues of injustice and bias in the first place.
 
 The recently published book Data Feminism (2020) by Catherine D’ignazio, Assistant Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT, and Lauren F. Klein, Associate Professor of English and Quantitative Theory and Methods at Emory University,  that analyses these questions from a feministic perspective seemed to be a good reading on this matter and a good starting point for me to learn about data and the relying issues of unbalanced power structures.  
 
@@ -93,7 +93,7 @@ To challenge the questions on power stated above, the authors purpose the follow
 * Make Labor Visible 
 
 
-Cover picture: Mural by [Marcia Diaz](https://marciadiaz.myportfolio.com/data-feminism) (2020) about this book.
+
 
 
 
