@@ -74,11 +74,11 @@ To challenge the questions on power stated above, the authors purpose the follow
 
 * **Make sure classifications don’t have bad consequences.**
 
-&ensp; &ensp; Have the Paradox of exposure in mind. Classification can reinforce discrimination. 
+&ensp; &ensp; Have the *Paradox of Exposure* in mind. Classification can reinforce discrimination. 
 
 * **Hack the data you are working with.**
 
-&ensp; &ensp; Use color coding to make your argument visible or show the absence of data.
+&ensp; &ensp; For example, use color coding to make your argument visible or show the absence of data.
 
 
 ![](/assets/img/congress-representation.jpg)
