@@ -6,7 +6,7 @@ categories: reviews
 tags: [documentation,sample]
 image: data-feminism.jpg
 ---
-*Mural by [Marcia Diaz](https://marciadiaz.myportfolio.com/data-feminism) (2020) about this book.*
+*Mural by [Marcia Diaz](https://marciadiaz.myportfolio.com/data-feminism) (2020) inspired by Data Feminism*
 # Data Feminism
 ## A memo based on the principles and ideas of Data Feminism 
 
