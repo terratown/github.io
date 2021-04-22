@@ -1,7 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-20T22:00:33+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">terra.town</title><subtitle>A modified jekyll theme for the blog terra.town</subtitle><author><name>Paul Le modified by Sara Daugbjerg &amp; Ane Vierø</name></author><entry><title type="html">Data Feminism</title><link href="http://localhost:4000/reviews/data-feminism-review.html" rel="alternate" type="text/html" title="Data Feminism" /><published>2021-02-20T00:00:00+01:00</published><updated>2021-02-20T00:00:00+01:00</updated><id>http://localhost:4000/reviews/data-feminism-review</id><content type="html" xml:base="http://localhost:4000/reviews/data-feminism-review.html">&lt;h1 id=&quot;data-feminism&quot;&gt;Data Feminism&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-22T14:37:22+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">terra.town</title><subtitle>A blog on data, visualisations, and digital technologies from a critical perspective</subtitle><author><name>Paul Le modified by Sara Daugbjerg &amp; Ane Vierø</name></author><entry><title type="html">Interactive Maps with mapbox and p5js</title><link href="http://localhost:4000/stories/interactive-maps.html" rel="alternate" type="text/html" title="Interactive Maps with mapbox and p5js" /><published>2021-04-22T00:00:00+02:00</published><updated>2021-04-22T00:00:00+02:00</updated><id>http://localhost:4000/stories/interactive-maps</id><content type="html" xml:base="http://localhost:4000/stories/interactive-maps.html">&lt;p&gt;Digital interactive maps have become a powerful tool for communication and citizen engagement. Sara has made a &lt;a href=&quot;https://fablab.ruc.dk/interactive-maps/&quot;&gt;manual&lt;/a&gt; that walks you through two examples and workflows on how to make interactive maps with Mapbox and p5js.&lt;/p&gt;
+
+&lt;p&gt;You can learn about the basic functionalities and styling options of Mapbox Studio and learn how to use p5js to add interactive elements. Mapbox Studio is a web-based tool for styling maps and creating geo-based data. p5js is a javascript library for creative coding.&lt;/p&gt;
+
+&lt;p&gt;The manual presents two examples of interactive maps.&lt;/p&gt;
+
+&lt;p&gt;In the first example you can learn how to work with static maps and add interactivity to it. You learn how to style a simple map on MapBox Studio and how to use p5js to program a simple interactive map for digital citizen participation, where the user can add dots to the map.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/map-box-static.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The second example shows how to work with Tile Maps, how to create geo-data on Mapbox Studio and how to use mappa.js, a javascript library for handling Mapbox GL JS maps. This, for designing a simple map with points of interest in a local area.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/poi-map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find the manual here: &lt;a href=&quot;https://fablab.ruc.dk/interactive-maps&quot;&gt;https://fablab.ruc.dk/interactive-maps/&lt;/a&gt;&lt;/p&gt;</content><author><name>Sara Daugbjerg</name></author><category term="documentation" /><category term="manual" /><summary type="html">Digital interactive maps have become a powerful tool for communication and citizen engagement. Sara has made a manual that walks you through two examples and workflows on how to make interactive maps with Mapbox and p5js.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/interactive-maps.png" /></entry><entry><title type="html">Data Feminism</title><link href="http://localhost:4000/reviews/data-feminism-review.html" rel="alternate" type="text/html" title="Data Feminism" /><published>2021-02-20T00:00:00+01:00</published><updated>2021-02-20T00:00:00+01:00</updated><id>http://localhost:4000/reviews/data-feminism-review</id><content type="html" xml:base="http://localhost:4000/reviews/data-feminism-review.html">&lt;p&gt;&lt;em&gt;Mural by &lt;a href=&quot;https://marciadiaz.myportfolio.com/data-feminism&quot;&gt;Marcia Diaz&lt;/a&gt; (2020) inspired by Data Feminism&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&quot;data-feminism&quot;&gt;Data Feminism&lt;/h1&gt;
 &lt;h2 id=&quot;a-memo-based-on-the-principles-and-ideas-of-data-feminism&quot;&gt;A memo based on the principles and ideas of Data Feminism&lt;/h2&gt;
 
-&lt;p&gt;As an aspiring data scientist wanting to explore the world of data to understand the world around me, I needed to make sure I educated myself on issues of injustice and bias first of all.&lt;/p&gt;
+&lt;p&gt;As an aspiring data scientist wanting to explore the world of data to understand the world around me, I felt I needed to make sure I educated myself on issues of injustice and bias in the first place.&lt;/p&gt;
 
 &lt;p&gt;The recently published book Data Feminism (2020) by Catherine D’ignazio, Assistant Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT, and Lauren F. Klein, Associate Professor of English and Quantitative Theory and Methods at Emory University,  that analyses these questions from a feministic perspective seemed to be a good reading on this matter and a good starting point for me to learn about data and the relying issues of unbalanced power structures.&lt;/p&gt;
 
@@ -76,13 +91,13 @@
   &lt;li&gt;&lt;strong&gt;Make sure classifications don’t have bad consequences.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;    Have the Paradox of exposure in mind. Classification can reinforce discrimination.&lt;/p&gt;
+&lt;p&gt;    Have the &lt;em&gt;Paradox of Exposure&lt;/em&gt; in mind. Classification can reinforce discrimination.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Hack the data you are working with.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;    Use color coding to make your argument visible or show the absence of data.&lt;/p&gt;
+&lt;p&gt;    For example, use color coding to make your argument visible or show the absence of data.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/congress-representation.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;span style=&quot;font-size:0.6em;&quot;&gt;Source: &lt;a href=&quot;https://www.theguardian.com/us-news/ng-interactive/2018/nov/15/new-congress-us-house-of-representatives-senate&quot;&gt;The Guardian&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
@@ -94,9 +109,7 @@
   &lt;li&gt;Embrace Pluralism&lt;/li&gt;
   &lt;li&gt;Consider Context&lt;/li&gt;
   &lt;li&gt;Make Labor Visible&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Cover picture: Mural by &lt;a href=&quot;https://marciadiaz.myportfolio.com/data-feminism&quot;&gt;Marcia Diaz&lt;/a&gt; (2020) about this book.&lt;/p&gt;</content><author><name>Sara Daugbjerg</name></author><category term="documentation" /><category term="sample" /><summary type="html">Data Feminism A memo based on the principles and ideas of Data Feminism</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/data-feminism.jpg" /></entry><entry><title type="html">Election Maps</title><link href="http://localhost:4000/stories/election-maps.html" rel="alternate" type="text/html" title="Election Maps" /><published>2020-11-06T00:00:00+01:00</published><updated>2020-11-06T00:00:00+01:00</updated><id>http://localhost:4000/stories/election-maps</id><content type="html" xml:base="http://localhost:4000/stories/election-maps.html">&lt;p&gt;&lt;em&gt;Map by: &lt;a href=&quot;https://martingonzalez.net/&quot;&gt;Martín González&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Sara Daugbjerg</name></author><category term="documentation" /><category term="sample" /><summary type="html">Mural by Marcia Diaz (2020) inspired by Data Feminism Data Feminism A memo based on the principles and ideas of Data Feminism</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/data-feminism.jpg" /></entry><entry><title type="html">Election Maps</title><link href="http://localhost:4000/stories/election-maps.html" rel="alternate" type="text/html" title="Election Maps" /><published>2020-11-06T00:00:00+01:00</published><updated>2020-11-06T00:00:00+01:00</updated><id>http://localhost:4000/stories/election-maps</id><content type="html" xml:base="http://localhost:4000/stories/election-maps.html">&lt;p&gt;&lt;em&gt;Map by: &lt;a href=&quot;https://martingonzalez.net/&quot;&gt;Martín González&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;election-maps&quot;&gt;Election Maps&lt;/h1&gt;
 

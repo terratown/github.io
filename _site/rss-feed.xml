@@ -2,9 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>terra.town</title>
-		<description>A modified jekyll theme for the blog terra.town</description>
+		<description>A blog on data, visualisations, and digital technologies from a critical perspective</description>
 		<link></link>
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Interactive Maps with mapbox and p5js</title>
+				
+					<dc:creator>Sara Daugbjerg</dc:creator>
+				
+				
+					<description>&lt;p&gt;Digital interactive maps have become a powerful tool for communication and citizen engagement. Sara has made a &lt;a href=&quot;https://fablab.ruc.dk/interactive-maps/&quot;&gt;manual&lt;/a&gt; that walks you through two examples and workflows on how to make interactive maps with Mapbox and p5js.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 22 Apr 2021 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/stories/interactive-maps.html</link>
+				<guid isPermaLink="true">http://localhost:4000/stories/interactive-maps.html</guid>
+			</item>
 		
 			<item>
 				<title>Data Feminism</title>
@@ -12,7 +27,8 @@
 					<dc:creator>Sara Daugbjerg</dc:creator>
 				
 				
-					<description>&lt;h1 id=&quot;data-feminism&quot;&gt;Data Feminism&lt;/h1&gt;
+					<description>&lt;p&gt;&lt;em&gt;Mural by &lt;a href=&quot;https://marciadiaz.myportfolio.com/data-feminism&quot;&gt;Marcia Diaz&lt;/a&gt; (2020) inspired by Data Feminism&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&quot;data-feminism&quot;&gt;Data Feminism&lt;/h1&gt;
 &lt;h2 id=&quot;a-memo-based-on-the-principles-and-ideas-of-data-feminism&quot;&gt;A memo based on the principles and ideas of Data Feminism&lt;/h2&gt;
 
 </description>

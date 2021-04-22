@@ -9,6 +9,10 @@
 <lastmod>2021-02-20T00:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/stories/interactive-maps.html</loc>
+<lastmod>2021-04-22T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/pages/about.html</loc>
 </url>
 <url>
@@ -31,5 +35,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/pages/stories.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projektliste.html</loc>
+<lastmod>2021-03-07T21:36:11+01:00</lastmod>
 </url>
 </urlset>

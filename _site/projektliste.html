@@ -1,0 +1,95 @@
+<html>
+<head>
+	<script src="
+https://unpkg.com/mqtt/dist/mqtt.min.js
+"></script>
+</head>
+<body>
+
+<H1>Projektliste:</h1>
+<div id="counter">Antal deltagere:</div>
+<hr>
+	<div id="projectTable"> </div>
+
+
+	<script>
+
+
+		var deltagere=0;
+
+		var projektBase=JSON.parse("{}");
+
+		var  client = mqtt.connect('wss😕/public😛
+ublic@public.cloud.shiftr.io
+', {
+		clientId: 'javascript'
+		});
+
+    client.on('connect', function() {
+    console.log('connected!');
+    client.subscribe('/try/ninja_projects');
+    });
+
+    client.on('message', function(topic, message) {
+
+		deltagere=0;
+
+    var msg=message.toString();
+    var msgObj=JSON.parse(msg);
+
+		var projectName=msgObj.project;
+		var projectParticipant=msgObj.participant;
+
+   	if(typeof projektBase[projectName] === 'undefined')
+   		projektBase[projectName]=[];
+
+		var unknown=true;
+		projektBase[projectName].forEach(function(entry) {
+			if(entry===projectParticipant)
+			{
+				unknown=false;
+				return;
+			}
+		});
+			if(unknown)
+				projektBase[projectName].push(projectParticipant);
+
+		var list=document.getElementById("projectTable");
+		var h="";
+		var projektList=Object.keys(projektBase);
+		for(var i=0;i<projektList.length;i++)
+		{
+			console.log(projektList[i]+"😊;
+			h+="<h3>";
+			h+=projektList[i];
+			h+="</h3>";
+			h+="<h4> deltagere: </h4>";
+			parList=projektBase[projektList[i]];
+			for(var n=0;n<parList.length;n++)
+			{
+				deltagere++;
+				console.log(parList[n]);
+				h+="&nbsp;&nbsp;&nbsp;";
+				h+=parList[n];
+				h+="<br>";
+      }
+			h+="<hr>";
+		}
+		var box=document.getElementById("projectTable");
+		box.innerHTML=h;
+
+		document.getElementById("counter").innerHTML="Antal deltagere: "+deltagere;
+
+		});
+
+
+		function sendToArduino(message)
+		{
+  		client.publish("/try/ninja_projects", message);
+		}
+	</script>
+
+
+
+</body>
+</html>

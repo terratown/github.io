@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Interactive Maps with mapbox and p5js | terra.town
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="terra.town" />
+  <!-- RSS-v2.0
+  <link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="terra.town | A blog on data, visualisations, and digital technologies from a critical perspective"/>
+  //-->
+
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-182015792-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Interactive Maps with mapbox and p5js | terra.town</title>
+<meta name="generator" content="Jekyll v3.6.3" />
+<meta property="og:title" content="Interactive Maps with mapbox and p5js" />
+<meta name="author" content="Sara Daugbjerg" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Digital interactive maps have become a powerful tool for communication and citizen engagement. Sara has made a manual that walks you through two examples and workflows on how to make interactive maps with Mapbox and p5js." />
+<meta property="og:description" content="Digital interactive maps have become a powerful tool for communication and citizen engagement. Sara has made a manual that walks you through two examples and workflows on how to make interactive maps with Mapbox and p5js." />
+<link rel="canonical" href="http://localhost:4000/stories/interactive-maps.html" />
+<meta property="og:url" content="http://localhost:4000/stories/interactive-maps.html" />
+<meta property="og:site_name" content="terra.town" />
+<meta property="og:image" content="http://localhost:4000/interactive-maps.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-22T00:00:00+02:00" />
+<script type="application/ld+json">
+{"headline":"Interactive Maps with mapbox and p5js","dateModified":"2021-04-22T00:00:00+02:00","datePublished":"2021-04-22T00:00:00+02:00","author":{"@type":"Person","name":"Sara Daugbjerg"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/stories/interactive-maps.html"},"image":"http://localhost:4000/interactive-maps.png","description":"Digital interactive maps have become a powerful tool for communication and citizen engagement. Sara has made a manual that walks you through two examples and workflows on how to make interactive maps with Mapbox and p5js.","@type":"BlogPosting","url":"http://localhost:4000/stories/interactive-maps.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+<div class="container">
+  <header class="site-header">
+  <h4 class="site-title">
+    <a href="/" class="logo">terra.town</a>
+  </h4>
+  <nav class="menu-list">
+    
+      <a href="/pages/stories.html" class="menu-link">Stories</a>
+    
+      <a href="/pages/reviews.html" class="menu-link">Reviews & Selections</a>
+    
+      <a href="/pages/club.html" class="menu-link">Coding Club</a>
+    
+      <a href="/pages/about.html" class="menu-link">About</a>
+    
+
+    
+      <a href="https://twitter.com/terratown_cph" class="menu-link" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    
+      <a href="https://www.instagram.com/terra.town/" class="menu-link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    
+      <a href="https://www.linkedin.com/company/terra-town" class="menu-link" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    
+      <a href="mailto:terra.town.mail@gmail.com" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    
+  </nav>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <div class="dropdown-content">
+      
+        <a href="/pages/stories.html" class="menu-link">Stories</a>
+      
+        <a href="/pages/reviews.html" class="menu-link">Reviews & Selections</a>
+      
+        <a href="/pages/club.html" class="menu-link">Coding Club</a>
+      
+        <a href="/pages/about.html" class="menu-link">About</a>
+      
+
+      
+        <a href="https://twitter.com/terratown_cph" class="menu-link" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      
+        <a href="https://www.instagram.com/terra.town/" class="menu-link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      
+        <a href="https://www.linkedin.com/company/terra-town" class="menu-link" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      
+        <a href="mailto:terra.town.mail@gmail.com" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      
+    </div>
+  </div>
+</header>
+
+  <div class="posts-wrapper">
+    <div class="page-content">
+  <h1>
+    Interactive Maps with mapbox and p5js
+  </h1>
+
+  <span class="post-date">
+    Written on
+    
+    April
+    22nd
+      ,
+    2021
+    by
+    
+      Sara Daugbjerg
+    
+  </span>
+
+  
+    <div class="featured-image">
+      <img src="/assets/img/interactive-maps.png">
+    </div>
+  
+
+  <article>
+    <p>Digital interactive maps have become a powerful tool for communication and citizen engagement. Sara has made a <a href="https://fablab.ruc.dk/interactive-maps/">manual</a> that walks you through two examples and workflows on how to make interactive maps with Mapbox and p5js.</p>
+
+<p>You can learn about the basic functionalities and styling options of Mapbox Studio and learn how to use p5js to add interactive elements. Mapbox Studio is a web-based tool for styling maps and creating geo-based data. p5js is a javascript library for creative coding.</p>
+
+<p>The manual presents two examples of interactive maps.</p>
+
+<p>In the first example you can learn how to work with static maps and add interactivity to it. You learn how to style a simple map on MapBox Studio and how to use p5js to program a simple interactive map for digital citizen participation, where the user can add dots to the map.</p>
+
+<p><img src="/assets/img/map-box-static.png" alt="" /></p>
+
+<p>The second example shows how to work with Tile Maps, how to create geo-data on Mapbox Studio and how to use mappa.js, a javascript library for handling Mapbox GL JS maps. This, for designing a simple map with points of interest in a local area.</p>
+
+<p><img src="/assets/img/poi-map.png" alt="" /></p>
+
+<p>You can find the manual here: <a href="https://fablab.ruc.dk/interactive-maps">https://fablab.ruc.dk/interactive-maps/</a></p>
+
+
+  </article>
+
+  <div class="post-share">
+    <div class="post-date">Feel free to share!</div>
+    <div class="sharing-icons">
+      <a href="https://twitter.com/intent/tweet?text=Interactive Maps with mapbox and p5js&amp;url=/stories/interactive-maps.html" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/stories/interactive-maps.html&amp;title=Interactive Maps with mapbox and p5js" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://plus.google.com/share?url=/stories/interactive-maps.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+<!--  <div class="related">
+    <h2></h2>
+    
+    <ul class="related-posts">
+      
+        
+          
+          
+        
+          
+            <li>
+              <h3>
+                <a href="/reviews/data-feminism-review.html">
+                  <div class="related-thumbnail">
+                    
+                      <img src="http://localhost:4000/assets/img/data-feminism.jpg">
+                    
+                  </div>
+                  <div class="related-title">
+                    Data Feminism
+                  </div>
+                  <!--<small>February 20, 2021</small>
+                </a>
+              </h3>
+            </li>
+            
+          
+        
+      
+        
+          
+          
+        
+      
+    </ul>
+  </div>
+-->
+
+  
+
+</div>
+
+  </div>
+  <footer class="footer">
+  
+    <a href="https://twitter.com/terratown_cph" class="menu-link" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  
+    <a href="https://www.instagram.com/terra.town/" class="menu-link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+  
+    <a href="https://www.linkedin.com/company/terra-town" class="menu-link" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+    <a href="mailto:terra.town.mail@gmail.com" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+
+</footer>
+
+</div>
+
+</body>
+</html>
