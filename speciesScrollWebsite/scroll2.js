@@ -95,6 +95,17 @@ function mouseWheel(event) {
 
 }
 
+function touchMoved() {
+  // Simulate mouse wheel event
+  let fakeEvent = {
+    delta: (touches[0].y - pmouseY) > 0 ? 1 : -1
+  };
+  mouseWheel(fakeEvent);
+
+  // Prevent default touch behavior
+  return false;
+}
+
 
 function windowResized() {
 
