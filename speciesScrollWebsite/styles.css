@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden; /* Prevent scrollbars from appearing */
+}
+.centered-text {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: 'Courier New', monospace;
+	font-size: 30px;
+	color: rgb(196, 214, 174);
+}
