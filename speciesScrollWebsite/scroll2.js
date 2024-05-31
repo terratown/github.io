@@ -33,8 +33,6 @@ function draw() {
         myText.html(infoText);
 
     } else {
-
-
         if (pos < 0) {
             pos = windowHeight;
             if (count != arter.length - 1) {
@@ -93,7 +91,7 @@ function draw() {
 
 
     textSize(18);
-    text(textTest2, 90,90);
+    text(`${textTest2}`, 90,90);
    text(`${textTest}`, 100,100);
    text(pos, 110,110);
 
@@ -108,7 +106,6 @@ let textTest2 = "NOT WORKING";
 function mouseWheel(event) {
     event.preventDefault();
     pos += event.deltaY * -0.4;
-
     textTest2=event.deltaY;
 }
 function touchMoved(event){
