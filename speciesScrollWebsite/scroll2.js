@@ -105,25 +105,13 @@ let textTest = "NOT WORKING";
 function mouseWheel(event) {
     event.preventDefault();
     pos += event.deltaY * -0.4;
+    text(event.deltaY, 90,90);
 }
 function touchMoved(event){
-
-    if (touches.length > 0) {
-        // Simulate mouse wheel event
-        let fakeEvent = {
-          deltaY: (touches[0].y - prevTouchY) > 0 ? 1 : -1
-        };
-        mouseWheel(fakeEvent);
-    
-        // Update prevTouchY for the next movement
-        prevTouchY = touches[0].y;
-      }
-    
-      // Prevent default touch behavior
       
     event.preventDefault();
     event.stopPropagation();
-    return false;
+  
 }
 
 
