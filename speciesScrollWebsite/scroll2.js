@@ -89,26 +89,29 @@ function draw() {
     textAlign(CENTER);
     text("i", 30, 33);
 
-
     textSize(18);
    text(`${textTest}`, 100,100);
    text(pos, 110,110);
 
-   for (let touch of touches) {
-    textTest = touch.y;
-    let currentY = touch.y;
-    
-    if (previousY !== null) {
-        if (currentY > previousY) {
-            touchDirection = 1; // Increasing
-        } else if (currentY < previousY) {
-            touchDirection = -1; // Decreasing
-        }
-    }
+   if (touches.length > 0) {
+    for (let touch of touches) {
+      let currentY = touch.y;
 
-    previousY = currentY;
-    pos += touchDirection * -20;
+      if (previousY !== null) {
+        let deltaY = currentY - previousY;
+        if (deltaY > 0) {
+          touchDirection = Math.min(deltaY, 100); // Increasing
+        } else if (deltaY < 0) {
+          touchDirection = Math.max(deltaY, -100); // Decreasing
+        }
+      }
+
+      previousY = currentY;
+      pos += touchDirection * -5; // Adjust position based on touchDirection
     }
+  } else {
+    previousY = null; // Reset previousY when no touches are present
+  }
     
 }
 let previousY = null;
