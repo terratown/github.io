@@ -96,7 +96,7 @@ function mouseWheel(event) {
 
 }
 
-function touchMoved() {
+function touchMoved(event) {
     if (touches.length > 0) {
       // Determine the direction of the touch movement
       let deltaY;
@@ -118,7 +118,8 @@ function touchMoved() {
       // Update prevTouchY for the next movement
       prevTouchY = touches[0].y;
     }
-  
+   // Prevent default touch behavior
+  event.preventDefault();
     // Prevent default touch behavior
     return false;
   }
