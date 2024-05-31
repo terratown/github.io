@@ -101,10 +101,10 @@ function draw() {
 
 
     textSize(18);
-   text(textTest, 100,100);
+   text(`${textTest}`, 100,100);
    text(pos, 110,110);
 }
-let textTest;
+let textTest = "NOT WORKING";
 
 function mouseWheel(event) {
     event.preventDefault();
@@ -113,7 +113,7 @@ function mouseWheel(event) {
 function touchmove(event){
     event.preventDefault();
     for (let touch of touches) {
-textTest = str(touch.y);
+    textTest = touch.y;
 
     }
     
