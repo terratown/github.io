@@ -69,14 +69,11 @@ function draw() {
         myText.html(arter[count]);
     }
 
-      textSize(18);
+textSize(18);
    text(window.scrollY, 100,100);
    text(pos, 110,110);
 
-   function touchmove(event){
-
-    event.preventDefault();
-   }
+ 
 
     textFont("Courier New");
     fill(196, 214, 174);
@@ -110,6 +107,10 @@ function draw() {
 function mouseWheel(event) {
     event.preventDefault();
     pos += event.deltaY * -0.4;
+}
+function touchmove(event){
+    event.preventDefault();
+    mouseWheel();
 }
 
 
