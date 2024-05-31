@@ -69,6 +69,11 @@ function draw() {
         myText.html(arter[count]);
     }
 
+      textSize(18);
+   text(window.scrollY, 100,100);
+   text(pos, 110,110);
+
+
     textFont("Courier New");
     fill(196, 214, 174);
     textSize(10);
