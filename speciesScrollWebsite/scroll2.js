@@ -111,6 +111,9 @@ function touchMoved() {
         deltaY: deltaY
       };
       mouseWheel(fakeEvent);
+    textSize(18);
+    text(touches[0].y, 100,100);
+        text(deltaY, 100,100);
   
       // Update prevTouchY for the next movement
       prevTouchY = touches[0].y;
