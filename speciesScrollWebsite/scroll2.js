@@ -93,6 +93,7 @@ function draw() {
 
 
     textSize(18);
+    text(textTest2, 90,90);
    text(`${textTest}`, 100,100);
    text(pos, 110,110);
 
@@ -102,11 +103,13 @@ function draw() {
     }
 }
 let textTest = "NOT WORKING";
+let textTest2 = "NOT WORKING";
 
 function mouseWheel(event) {
     event.preventDefault();
     pos += event.deltaY * -0.4;
-    text(event.deltaY, 90,90);
+
+    textTest2=event.deltaY;
 }
 function touchMoved(event){
 
