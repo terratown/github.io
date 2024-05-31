@@ -120,10 +120,10 @@ function touchMoved(event){
       }
     
       // Prevent default touch behavior
-      return false;
+      
     event.preventDefault();
     event.stopPropagation();
-    
+    return false;
 }
 
 
