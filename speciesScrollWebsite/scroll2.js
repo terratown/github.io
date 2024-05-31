@@ -107,7 +107,7 @@ function draw() {
       }
 
       previousY = currentY;
-      pos += touchDirection * -5; // Adjust position based on touchDirection
+      pos += touchDirection * -0.4; // Adjust position based on touchDirection
     }
   } else {
     previousY = null; // Reset previousY when no touches are present
