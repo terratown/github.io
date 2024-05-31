@@ -97,15 +97,28 @@ function mouseWheel(event) {
 }
 
 function touchMoved() {
-  // Simulate mouse wheel event
-  let fakeEvent = {
-    deltaY: (touches[0].y - pmouseY) > 0 ? 1 : -1
-  };
-  mouseWheel(fakeEvent);
-
-  // Prevent default touch behavior
-  return false;
-}
+    if (touches.length > 0) {
+      // Determine the direction of the touch movement
+      let deltaY;
+      if (touches[0].y - prevTouchY > 0) {
+        deltaY = 1; // Touch moved downwards
+      } else {
+        deltaY = -1; // Touch moved upwards
+      }
+  
+      // Simulate mouse wheel event
+      let fakeEvent = {
+        deltaY: deltaY
+      };
+      mouseWheel(fakeEvent);
+  
+      // Update prevTouchY for the next movement
+      prevTouchY = touches[0].y;
+    }
+  
+    // Prevent default touch behavior
+    return false;
+  }
 
 
 function windowResized() {
