@@ -107,13 +107,32 @@ function mouseWheel(event) {
     pos += event.deltaY * -0.4;
 }
 function touchMoved(event){
+
+    if (touches.length > 0) {
+        // Simulate mouse wheel event
+        let fakeEvent = {
+          deltaY: (touches[0].y - prevTouchY) > 0 ? 1 : -1
+        };
+        mouseWheel(fakeEvent);
+    
+        // Update prevTouchY for the next movement
+        prevTouchY = touches[0].y;
+      }
+    
+      // Prevent default touch behavior
+      return false;
     event.preventDefault();
     event.stopPropagation();
     
 }
 
 
-
+// Reset prevTouchY when touch starts
+function touchStarted() {
+    if (touches.length > 0) {
+      prevTouchY = touches[0].y;
+    }
+  }
 
 function windowResized() {
 
