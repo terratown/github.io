@@ -106,9 +106,9 @@ function mouseWheel(event) {
     event.preventDefault();
     pos += event.deltaY * -0.4;
 }
-function touchmove(event){
+function touchMoved(event){
     event.preventDefault();
-
+    event.stopPropagation();
     
 }
 
