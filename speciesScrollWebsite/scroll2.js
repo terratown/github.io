@@ -4,6 +4,7 @@ let myText;
 let myTag;
 let d;
 let showInfo = false;
+let prevTouchY = 0;
 
 let fontSize
 
@@ -112,7 +113,12 @@ function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
     fontSize = map(windowWidth, 100, 1200, 8, 18);
 }
-
+// Reset prevTouchY when touch starts
+function touchStarted() {
+  if (touches.length > 0) {
+    prevTouchY = touches[0].y;
+  }
+}
 
 let infoText =
     "I en tid, hvor store og magtfulde teknologivirksomheder genererer (eller får brugerne til det) enorme mængder data med det formål at fange brugerne i den digitale verden i en uendelig, tankeløs scrol, er mange arter i den virkelige verden i fare for at uddø. Vores opmærksomhed rettes mod skærmen, mens den naturlige verden forsvinder, hvilket understreger den ironiske kontrast mellem digital overflod og biologisk tilbagegang. \nDette digitale værk udruller navnene på truede arter i Danmark i en tilsyneladende endeløs scroll. Det er baseret på data fra den Danske Rødliste fra Aarhus Universitet fra 2023.";
