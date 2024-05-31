@@ -73,6 +73,10 @@ function draw() {
    text(window.scrollY, 100,100);
    text(pos, 110,110);
 
+   function touchmove(event){
+
+    event.preventDefault();
+   }
 
     textFont("Courier New");
     fill(196, 214, 174);
