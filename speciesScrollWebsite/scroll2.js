@@ -98,6 +98,7 @@ function draw() {
 
    for (let touch of touches) {
     textTest = touch.y;
+    
     }
 }
 let textTest = "NOT WORKING";
@@ -108,10 +109,21 @@ function mouseWheel(event) {
     text(event.deltaY, 90,90);
 }
 function touchMoved(event){
-      
+
+    if (touches.length > 0) {
+        // Simulate mouse wheel event
+        let fakeEvent = {
+          deltaY: (touches[0].y - prevTouchY) > 0 ? 1 : -1
+        };
+        mouseWheel(fakeEvent);
+    
+        // Update prevTouchY for the next movement
+        prevTouchY = touches[0].y;
+      }
+
     event.preventDefault();
     event.stopPropagation();
-  
+   
 }
 
 
