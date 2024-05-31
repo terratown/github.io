@@ -69,9 +69,6 @@ function draw() {
         myText.html(arter[count]);
     }
 
-textSize(18);
-   text(window.scrollY, 100,100);
-   text(pos, 110,110);
 
  
 
@@ -101,8 +98,13 @@ textSize(18);
     textSize(12);
     textAlign(CENTER);
     text("i", 30, 33);
-}
 
+
+    textSize(18);
+   text(textTest, 100,100);
+   text(pos, 110,110);
+}
+let textTest;
 
 function mouseWheel(event) {
     event.preventDefault();
@@ -110,8 +112,14 @@ function mouseWheel(event) {
 }
 function touchmove(event){
     event.preventDefault();
-    mouseWheel();
+    for (let touch of touches) {
+textTest = str(touch.y);
+
+    }
+    
 }
+
+
 
 
 function windowResized() {
