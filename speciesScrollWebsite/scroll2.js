@@ -6,16 +6,8 @@ let d;
 let showInfo = false;
 let prevTouchY = 0;
 
-let fontSize
-window.addEventListener("scroll", preventMotion, false);
-window.addEventListener("touchmove", preventMotion, false);
+let fontSize;
 
-function preventMotion(event)
-{
-    window.scrollTo(0, 0);
-    event.preventDefault();
-    event.stopPropagation();
-}
 
 function setup() {
 
@@ -114,7 +106,6 @@ function touchmove(event){
     event.preventDefault();
     for (let touch of touches) {
     textTest = touch.y;
-
     }
     
 }
