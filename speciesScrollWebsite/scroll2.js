@@ -91,35 +91,36 @@ function draw() {
 
 
     textSize(18);
-    text(`${textTest2}`, 90,90);
    text(`${textTest}`, 100,100);
    text(pos, 110,110);
 
    for (let touch of touches) {
     textTest = touch.y;
+    let currentY = touch.y;
     
+    if (previousY !== null) {
+        if (currentY > previousY) {
+            touchDirection = 1; // Increasing
+        } else if (currentY < previousY) {
+            touchDirection = -1; // Decreasing
+        }
     }
+
+    previousY = currentY;
+    pos += touchDirection * -0.4;
+    }
+    
 }
+let previousY = null;
+let touchDirection = 0; // -1 for decreasing, 1 for increasing
 let textTest = "NOT WORKING";
-let textTest2 = "NOT WORKING";
+
 
 function mouseWheel(event) {
     event.preventDefault();
     pos += event.deltaY * -0.4;
-    textTest2=event.deltaY;
 }
 function touchMoved(event){
-
-    if (touches.length > 0) {
-        // Simulate mouse wheel event
-        let fakeEvent = {
-          deltaY: (touches[0].y - prevTouchY) > 0 ? 1 : -1
-        };
-        mouseWheel(fakeEvent);
-    
-        // Update prevTouchY for the next movement
-        prevTouchY = touches[0].y;
-      }
 
     event.preventDefault();
     event.stopPropagation();
