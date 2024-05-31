@@ -107,7 +107,7 @@ function draw() {
     }
 
     previousY = currentY;
-    pos += touchDirection * -0.4;
+    pos += touchDirection * -20;
     }
     
 }
