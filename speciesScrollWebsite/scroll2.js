@@ -7,6 +7,15 @@ let showInfo = false;
 let prevTouchY = 0;
 
 let fontSize
+window.addEventListener("scroll", preventMotion, false);
+window.addEventListener("touchmove", preventMotion, false);
+
+function preventMotion(event)
+{
+    window.scrollTo(0, 0);
+    event.preventDefault();
+    event.stopPropagation();
+}
 
 function setup() {
 
@@ -92,37 +101,7 @@ function draw() {
 function mouseWheel(event) {
     event.preventDefault();
     pos += event.deltaY * -0.4;
-
-
 }
-
-function touchMoved(event) {
-    if (touches.length > 0) {
-      // Determine the direction of the touch movement
-      let deltaY;
-      if (touches[0].y - prevTouchY > 0) {
-        deltaY = 1; // Touch moved downwards
-      } else {
-        deltaY = -1; // Touch moved upwards
-      }
-  
-      // Simulate mouse wheel event
-      let fakeEvent = {
-        deltaY: deltaY
-      };
-      mouseWheel(fakeEvent);
-    textSize(18);
-    text(touches[0].y, 100,100);
-        text(deltaY, 100,100);
-  
-      // Update prevTouchY for the next movement
-      prevTouchY = touches[0].y;
-    }
-   // Prevent default touch behavior
-  event.preventDefault();
-    // Prevent default touch behavior
-    return false;
-  }
 
 
 function windowResized() {
@@ -130,12 +109,7 @@ function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
     fontSize = map(windowWidth, 100, 1200, 8, 18);
 }
-// Reset prevTouchY when touch starts
-function touchStarted() {
-  if (touches.length > 0) {
-    prevTouchY = touches[0].y;
-  }
-}
+
 
 let infoText =
     "I en tid, hvor store og magtfulde teknologivirksomheder genererer (eller får brugerne til det) enorme mængder data med det formål at fange brugerne i den digitale verden i en uendelig, tankeløs scrol, er mange arter i den virkelige verden i fare for at uddø. Vores opmærksomhed rettes mod skærmen, mens den naturlige verden forsvinder, hvilket understreger den ironiske kontrast mellem digital overflod og biologisk tilbagegang. \nDette digitale værk udruller navnene på truede arter i Danmark i en tilsyneladende endeløs scroll. Det er baseret på data fra den Danske Rødliste fra Aarhus Universitet fra 2023.";
