@@ -11,3 +11,8 @@ body {
 	font-size: 30px;
 	color: rgb(196, 214, 174);
 }
+html {
+	overflow: hidden; /* Prevent scrollbars from appearing */
+
+	overscroll-behavior: none;
+}
